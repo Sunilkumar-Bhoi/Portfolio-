@@ -1,0 +1,164 @@
+@font-face {
+  font-family: myfont2;
+  src: url(gt.woff);
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color:#AEAFB81F;
+  font-family: myfont2;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #FF000061;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding:7px;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #333333;
+  text-decoration: none;  
+}
+
+nav ul li a:hover {
+  background-color: #EDEDEDBA;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.firstsection {
+  padding: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.leftsection{
+   text-align: center;
+   font-size: 2rem;
+}
+
+.Name {
+  color: #FF9898;
+}
+
+.rightsection {
+  margin: 10px;
+  padding: 10px;
+}
+
+.rightsection img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.edusection{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ssc ,.hsc,.graduation {
+  font-size: 1rem;
+  color: #333333;
+  background-color: #FF000061;
+  margin:10px;
+  padding: 10px;
+  border-radius: 12px;
+  width: 98%;
+  overflow: hidden;
+  height: 100%;
+  transition: width 0.3s ease,background-color 0.3s ease;
+}
+
+.ssc:hover,.graduation:hover,.hsc:hover{
+  background-color:#E26565;
+  width: 100%;
+}
+
+.ssc p,.hsc p,.graduation p{
+  color: #333333;
+}
+
+.skillsection{
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsection ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.skillsection ul li{
+  color: #333333;
+  font-size: 1rem;
+  background-color: #FF000061;
+  padding:8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease
+}
+
+.skillsection ul li:hover{
+  background-color: #E26565;
+  color:white;
+}
+
+.footer {
+  background-color: #FF000061;
+  display: flex;
+  flex-direction: column;
+}
+.cont{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height:50px;
+}
+
+.made{
+  text-align: center;
+  padding-bottom: 5px;
+}
+.footer a{
+  text-decoration: none;
+  color:#333333;
+}

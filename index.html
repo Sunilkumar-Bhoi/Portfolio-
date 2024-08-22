@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunil's Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav arial-lable="Primary Navigation">
+      <div class="navclass">
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="firstsection" id="About">
+    <div class="leftsection">
+      Hi, I am
+      <span class="Name">Sunil.</span>
+
+      <div class="scriptype">
+        <span id="element"></span>
+      </div>
+    </div>
+
+    <div class="rightsection">
+      <img src="/img.png" alt="Sunil's Image">
+    </div>
+
+  </section>
+
+  <section class="edusection" id="Education">
+    <h1>Education</h1>
+    <div class="ssc">
+      <h1>SSC</h1>
+      <p>
+        Jawahar Navodaya Vidyalaya Kheda(Gujarat) Apr 2019- march 2020
+        79%
+      </p>
+    </div>
+
+    <div class="hsc">
+      <h1>HSC</h1>
+      <p>
+        Jawahar Navodaya Vidyalaya Kheda(Gujarat) Apr 2021- march 2022
+        81%
+      </p>
+    </div>
+
+    <div class="graduation">
+      <h1>UG</h1>
+      <p>
+        B.Tech, Computer Madhuben & Bhanubhai Patel Institute of Technology (MBIT)<br>
+        CVM University, Anand <br>
+        CGPA 8.55/10 (till 4th sem) <br>su
+        2022-2026(pursuing)
+      </p>
+    </div>
+  </section>
+  <section class="skillsection" id="Skills">
+   <h1>Skills</h1>
+    <ul>
+      <li>C</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>HTML/CSS</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+  
+  <footer class="footer" id="Contact">
+    <div class="cont">
+          <a href="Linkedin">Linkedin</a>
+    <a href="Mail">Mail</a>
+    <a href="github">GitHub</a>
+    </div>
+    <div class="made">
+      Made by Sunil Bhoi
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', '&amp; Video Editor.', '&amp; Photographer.', '&amp; Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
